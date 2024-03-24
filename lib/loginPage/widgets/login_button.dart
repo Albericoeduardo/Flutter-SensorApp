@@ -13,8 +13,15 @@ class LoginButton extends StatelessWidget {
           MaterialPageRoute(builder: (context) => const HomePage())
         );
       },
+      style: ElevatedButton.styleFrom(
+        backgroundColor: const Color.fromARGB(153, 230, 186, 149),
+        elevation: 10.0,
+      ),
       child: const Text(
         'Login',
+        style: TextStyle(
+          color: Colors.black
+        ),
       ),
     );
   }
