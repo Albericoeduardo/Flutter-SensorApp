@@ -3,6 +3,7 @@ import 'package:flutter_farmapp/widgets/grey_text.dart';
 import 'package:flutter_farmapp/widgets/input_field.dart';
 import 'package:flutter_farmapp/widgets/button.dart';
 import 'package:flutter_farmapp/loginPage/widgets/remeber_forgot.dart';
+import 'package:flutter_farmapp/widgets/other.login.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController emailController = TextEditingController();
@@ -40,7 +41,9 @@ class LoginPage extends StatelessWidget {
                       const SizedBox(height: 20.0,),
                       const LoginButton(text: "Login",),
                       const SizedBox(height: 20.0,),
-                      const GreyText(text: "Ou")
+                      const GreyText(text: "Ou"),
+                      const SizedBox(height: 20,),
+                      const OtherLogin()
                     ],
                   )
                 ),
