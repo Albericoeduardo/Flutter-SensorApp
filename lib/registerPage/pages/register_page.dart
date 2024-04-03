@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_farmapp/widgets/button.dart';
 import 'package:flutter_farmapp/widgets/grey_text.dart';
 import 'package:flutter_farmapp/widgets/input_field.dart';
-import 'package:flutter_farmapp/widgets/other.login.dart';
+import 'package:flutter_farmapp/widgets/other_login.dart';
 
 class RegisterPage extends StatelessWidget {
   final TextEditingController nomeFazendaController = TextEditingController();
