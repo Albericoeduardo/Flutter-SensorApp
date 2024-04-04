@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_farmapp/loginPage/widgets/grey_text.dart';
+import 'package:flutter_farmapp/widgets/grey_text.dart';
 
 class RememberForgot extends StatefulWidget {
   const RememberForgot({super.key,});
