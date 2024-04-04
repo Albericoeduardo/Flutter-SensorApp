@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_farmapp/homePage/home_page.dart';
+import 'package:flutter_farmapp/homePage/pages/home_page.dart';
 
 class LoginButton extends StatelessWidget {
   final String text;
