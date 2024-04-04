@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_farmapp/widgets/grey_text.dart';
 import 'package:flutter_farmapp/widgets/input_field.dart';
 import 'package:flutter_farmapp/widgets/button.dart';
-import 'package:flutter_farmapp/loginPage/widgets/other_login.dart';
 import 'package:flutter_farmapp/loginPage/widgets/remeber_forgot.dart';
 import 'package:flutter_farmapp/widgets/other_login.dart';
 
