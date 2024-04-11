@@ -7,16 +7,17 @@ class PicButton extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 1,
-      child: TabBar(
-        labelColor: Colors.transparent,
-        indicatorColor: Colors.transparent,
-        unselectedLabelColor: Colors.transparent,
-        tabs: [
-          Tab(icon: Image.asset(icon),)
-        ]
-      )
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context, 
+          MaterialPageRoute(builder: (context) => route));
+      },
+      child: Image.asset(
+        icon,
+        height: 40,
+        width: 40,
+      ),
     );
   }
 }
