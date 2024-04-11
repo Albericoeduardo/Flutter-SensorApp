@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_farmapp/loginPage/pages/login_page.dart';
+import 'package:flutter_farmapp/widgets/button.dart';
 import 'package:flutter_farmapp/widgets/pic_button.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 
@@ -149,6 +150,18 @@ class _HomePageState extends State<HomePage> {
                         )
                       ],
                     ),
+                    const SizedBox(height: 32,),
+                    const Center(
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          LoginButton(text: "Gráficos"),
+                          SizedBox(width: 32,),
+                          LoginButton(text: "Relatórios"),
+                        ],
+                      ),
+                    )
                   ],
                 ),
               )
