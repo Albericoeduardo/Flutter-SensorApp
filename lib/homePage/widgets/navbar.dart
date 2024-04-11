@@ -1,21 +1,30 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_farmapp/homePage/pages/home_page.dart';
-import 'package:flutter_farmapp/widgets/pic_button.dart';
 
 class NavBar extends StatelessWidget {
   const NavBar({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      backgroundColor: Color.fromARGB(255, 162, 179, 139),
-      body: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          PicButton(icon: 'Lupulo_icon.png', route: HomePage())
-        ],
-      )       
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      children: [
+        GestureDetector(
+          onTap: () {},
+          child: Image.asset(
+            "assets/images/Lupulo_icon.png",
+            height: 32,
+            width: 32,
+          )
+          ),
+          const RotatedBox(
+            quarterTurns: 135,
+            child: Icon(
+            Icons.bar_chart_rounded,
+            color: Colors.indigo,
+            size: 28,
+          ),
+        )
+      ],
     );
   }
 }
